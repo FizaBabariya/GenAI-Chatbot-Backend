@@ -71,13 +71,13 @@ This project was certified by *Intel®*.
 
 ## 🚀 Installation
 
-bash
+```bash
 git clone https://github.com/qwertykaran/genai-healthcare-backend.git
 cd genai-healthcare-backend
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 
 
 ---
@@ -85,21 +85,21 @@ pip install -r requirements.txt
 ### Environment Variables
 
 Create a .env file in the root directory:
-bash
+```bash
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=<your-neo4j-password>
 HF_MODEL_NAME=google/flan-t5-large
-
+```
 
 ---
 
 ### Run the Backend
 
-bash
+```bash
 
 uvicorn main:app --reload
-
+```
 
 ---
 
@@ -140,11 +140,11 @@ Send a POST request to /chat with JSON body:
 
 ## 📎 Links
 
-- Frontend Repo: [genai-healthcare-frontend](https://github.com/qwertykaran/GenAI-Chatbot-Frontend.git)  
+- Frontend Repo: [genai-healthcare-frontend](https://github.com/FizaBabariya/GenAI-Chatbot-Frontend.git)  
 - Neo4j Desktop Docs: [https://neo4j.com/docs/desktop-manual/current/](https://neo4j.com/docs/desktop-manual/current/)
 
 ---
 
 ## 📄 License
 
-MIT License © 2025 Karan Soni
+MIT License © 2025 Fiza Babariya
