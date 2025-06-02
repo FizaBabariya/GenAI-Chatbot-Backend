@@ -57,7 +57,7 @@ This project was certified by *Intel®*.
 
 ## 🏗 Architecture
 
-![Alt text](./ArchitectureDiagram.png)
+![Alt text](./Architecture.png)
 
 ---
 
