@@ -72,7 +72,7 @@ This project was certified by *Intel®*.
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/qwertykaran/genai-healthcare-backend.git
+git clone https://github.com/FizaBabariya/genai-healthcare-backend.git
 cd genai-healthcare-backend
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
